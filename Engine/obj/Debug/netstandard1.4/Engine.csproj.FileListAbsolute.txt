@@ -1,0 +1,8 @@
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\netstandard1.4\Engine.deps.json
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\netstandard1.4\Engine.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\netstandard1.4\Engine.pdb
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\netstandard1.4\Engine.csprojResolveAssemblyReference.cache
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\netstandard1.4\Engine.csproj.CoreCompileInputs.cache
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\netstandard1.4\Engine.AssemblyInfo.cs
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\netstandard1.4\Engine.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\netstandard1.4\Engine.pdb

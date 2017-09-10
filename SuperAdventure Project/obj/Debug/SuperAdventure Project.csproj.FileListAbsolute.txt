@@ -19,3 +19,5 @@ C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdve
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.csproj.CoreCompileInputs.cache
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\User Interface Project.exe
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\User Interface Project.pdb
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\Engine.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\Engine.pdb
