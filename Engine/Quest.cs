@@ -22,5 +22,7 @@ namespace Engine
             RewardExperiencePoints = rewardExperiencePoints;
             RewardGold = rewardGold;
         }
+
+        public Item RewardItem { get; set; }
     }
 }
