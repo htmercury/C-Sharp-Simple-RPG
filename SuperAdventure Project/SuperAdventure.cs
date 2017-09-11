@@ -33,5 +33,45 @@ namespace User_Interface_Project
         {
 
         }
+
+        private void btnNorth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnWest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEast_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSouth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUseWeapon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUsePotion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboWeapons_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboPotions_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
