@@ -146,7 +146,7 @@ namespace Engine
             home.LocationToNorth = townSquare;
 
             townSquare.LocationToNorth = alchemistHut;
-            townSquare.LocationToNorth = home;
+            townSquare.LocationToSouth = home;
             townSquare.LocationToEast = guardpost;
             townSquare.LocationToWest = farmhouse;
 
