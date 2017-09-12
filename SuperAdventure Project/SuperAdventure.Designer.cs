@@ -137,7 +137,6 @@
             this.cboWeapons.Name = "cboWeapons";
             this.cboWeapons.Size = new System.Drawing.Size(121, 21);
             this.cboWeapons.TabIndex = 9;
-            //this.cboWeapons.SelectedIndexChanged += new System.EventHandler(this.cboWeapons_SelectedIndexChanged);
             // 
             // cboPotions
             // 
@@ -146,7 +145,6 @@
             this.cboPotions.Name = "cboPotions";
             this.cboPotions.Size = new System.Drawing.Size(121, 21);
             this.cboPotions.TabIndex = 10;
-            //this.cboPotions.SelectedIndexChanged += new System.EventHandler(this.cboPotions_SelectedIndexChanged);
             // 
             // btnUseWeapon
             // 
@@ -225,6 +223,7 @@
             this.rtbMessages.Size = new System.Drawing.Size(360, 286);
             this.rtbMessages.TabIndex = 18;
             this.rtbMessages.Text = "";
+            this.rtbMessages.TextChanged += new System.EventHandler(this.rtbMessages_TextChanged);
             // 
             // dgvInventory
             // 

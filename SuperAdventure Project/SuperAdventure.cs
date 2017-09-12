@@ -211,7 +211,7 @@ namespace User_Interface_Project
             UpdateWeaponListInUI();
 
             // Refresh player's potions combobox
-
+            UpdatePotionListInUI();
         }
 
         // Update inventory list in UI
@@ -501,5 +501,12 @@ namespace User_Interface_Project
             UpdatePotionListInUI();
         }
 
+        private void rtbMessages_TextChanged(object sender, EventArgs e)
+        {
+            // set current position to the end
+            rtbMessages.SelectionStart = rtbMessages.Text.Length;
+            // scroll it automatically
+            rtbMessages.ScrollToCaret();
+        }
     }
 }

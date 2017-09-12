@@ -55,6 +55,7 @@ namespace Engine
             Items.Add(new Item(ITEM_ID_RAT_TAIL, "Rat tail", "Rat tails"));
             Items.Add(new Item(ITEM_ID_PIECE_OF_FUR, "Piece of fur", "Pieces of fur"));
             Items.Add(new Item(ITEM_ID_SNAKE_FANG, "Snake fang", "Snake fangs"));
+            Items.Add(new Item(ITEM_ID_SNAKESKIN, "Snake skin", "Snake skin"));
             Items.Add(new Weapon(ITEM_ID_CLUB, "Club", "Clubs", 3, 10));
             Items.Add(new HealingPotion(ITEM_ID_HEALING_POTION, "Healing potion", "Healing potions", 5));
             Items.Add(new Item(ITEM_ID_SPIDER_FANG, "Spider fang", "Spider fangs"));
