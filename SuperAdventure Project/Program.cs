@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace User_Interface_Project
+namespace Super_Adventure_Project
 {
     static class Program
     {

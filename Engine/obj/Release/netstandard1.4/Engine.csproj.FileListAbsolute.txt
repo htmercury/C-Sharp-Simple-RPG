@@ -5,3 +5,4 @@ C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Release\netstandard1.4\Engine.c
 C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Release\netstandard1.4\Engine.AssemblyInfo.cs
 C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Release\netstandard1.4\Engine.dll
 C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Release\netstandard1.4\Engine.pdb
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Release\netstandard1.4\Engine.csprojResolveAssemblyReference.cache

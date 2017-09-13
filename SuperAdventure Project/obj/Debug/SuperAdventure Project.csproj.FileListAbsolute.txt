@@ -9,15 +9,20 @@ C:\Users\kawon\Documents\C-Simple-RPG\User Interface Project\obj\Debug\SuperAdve
 C:\Users\kawon\Documents\C-Simple-RPG\User Interface Project\obj\Debug\SuperAdventure Project.csproj.CoreCompileInputs.cache
 C:\Users\kawon\Documents\C-Simple-RPG\User Interface Project\obj\Debug\User Interface Project.exe
 C:\Users\kawon\Documents\C-Simple-RPG\User Interface Project\obj\Debug\User Interface Project.pdb
-C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\User Interface Project.exe.config
-C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\User Interface Project.exe
-C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\User Interface Project.pdb
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.csprojResolveAssemblyReference.cache
-C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\User_Interface_Project.Properties.Resources.resources
-C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\User_Interface_Project.SuperAdventure.resources
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.csproj.GenerateResource.Cache
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.csproj.CoreCompileInputs.cache
-C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\User Interface Project.exe
-C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\User Interface Project.pdb
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\Engine.dll
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\Engine.pdb
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\Super_Adventure_Project.Properties.Resources.resources
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\Super_Adventure_Project.SuperAdventure.resources
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\SuperAdventure Project.exe.config
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\SuperAdventure Project.exe
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\SuperAdventure Project.pdb
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.exe
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.pdb
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xml.XPath.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xml.XPath.XmlDocument.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.csproj.SuperAdventure Project.exe.config
