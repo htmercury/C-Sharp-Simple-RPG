@@ -32,8 +32,16 @@ namespace Super_Adventure_Project
                 _player = Player.CreateDefaultPlayer();
             }
 
+            lblHitPoints.DataBindings.Add(
+                "Text", _player, "CurrentHitPoints");
+            lblGold.DataBindings.Add(
+                "Text", _player, "Gold");
+            lblExperience.DataBindings.Add(
+                "Text", _player, "ExperiencePoints");
+            lblLevel.DataBindings.Add(
+                "Text", _player, "Level");
+
             MoveTo(_player.CurrentLocation);
-            UpdatePlayerStats();
         }
 
         private void btnNorth_Click(object sender, EventArgs e)
@@ -83,7 +91,7 @@ namespace Super_Adventure_Project
             _player.CurrentHitPoints = _player.MaximumHitPoints;
 
             // Update the Hit Points in UI
-            lblHitPoints.Text = _player.CurrentHitPoints.ToString();
+            //lblHitPoints.Text = _player.CurrentHitPoints.ToString();
 
             // Does the location have a quest?
             if(newLocation.QuestAvailableHere != null)
@@ -416,7 +424,7 @@ namespace Super_Adventure_Project
                 }
 
                 // Refresh player information and inventory controls
-                UpdatePlayerStats();
+                // UpdatePlayerStats();
 
                 UpdateInventoryListInUI();
                 UpdateWeaponListInUI();
@@ -444,7 +452,7 @@ namespace Super_Adventure_Project
                 _player.CurrentHitPoints -= damageToPlayer;
 
                 // Refresh player data in UI
-                lblHitPoints.Text = _player.CurrentHitPoints.ToString();
+                //lblHitPoints.Text = _player.CurrentHitPoints.ToString();
 
                 if(_player.CurrentHitPoints <= 0)
                 {
@@ -509,7 +517,7 @@ namespace Super_Adventure_Project
             }
 
             // Refresh player data in UI
-            lblHitPoints.Text = _player.CurrentHitPoints.ToString();
+            //lblHitPoints.Text = _player.CurrentHitPoints.ToString();
             UpdateInventoryListInUI();
             UpdatePotionListInUI();
         }
