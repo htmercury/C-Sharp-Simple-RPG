@@ -3,18 +3,50 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace Engine
 {
-    public class InventoryItem
+    public class InventoryItem : INotifyPropertyChanged
     {
-        public Item Details { get; set; }
-        public int Quanitity { get; set; }
+        private Item _details;
+        private int _quantity;
+
+        public Item Details {
+            get { return _details; }
+            set
+            {
+                _details = value;
+                OnPropertyChanged("Details");
+            }
+        }
+        public int Quanitity {
+            get{ return _quantity; }
+            set
+            {
+                _quantity = value;
+                OnPropertyChanged("Quantity");
+                OnPropertyChanged("Description");
+            }
+        }
 
         public InventoryItem(Item details, int quantity)
         {
             Details = details;
             Quanitity = quantity;
         }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged(string name)
+        {
+            if(PropertyChanged != null)
+            {
+                PropertyChanged(
+                    this, new PropertyChangedEventArgs(name));
+            }
+        }
+
+
     }
 }
