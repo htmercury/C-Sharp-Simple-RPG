@@ -38,7 +38,7 @@ namespace Engine
             get { return ((ExperiencePoints / 100) + 1);  }
         }
         public BindingList<InventoryItem> Inventory { get; set; }
-        public List<PlayerQuest> Quests { get; set; }
+        public BindingList<PlayerQuest> Quests { get; set; }
         public Location CurrentLocation { get; set; }
         public Weapon CurrentWeapon { get; set; }
 
@@ -50,7 +50,7 @@ namespace Engine
             ExperiencePoints = experiencePoints;
 
             Inventory = new BindingList<InventoryItem>();
-            Quests = new List<PlayerQuest>();
+            Quests = new BindingList<PlayerQuest>();
         }
 
         public static Player CreateDefaultPlayer()
@@ -148,7 +148,7 @@ namespace Engine
 
         public bool HasThisQuest(Quest quest)
         {
-            return Quests.Exists(pq => pq.Details.ID == quest.ID);
+            return Quests.Any(pq => pq.Details.ID == quest.ID);
         }
 
         public bool CompletedThisQuest(Quest quest)
