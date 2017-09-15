@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.ComponentModel;
 
 namespace Engine
 {
@@ -36,7 +37,7 @@ namespace Engine
         {
             get { return ((ExperiencePoints / 100) + 1);  }
         }
-        public List<InventoryItem> Inventory { get; set; }
+        public BindingList<InventoryItem> Inventory { get; set; }
         public List<PlayerQuest> Quests { get; set; }
         public Location CurrentLocation { get; set; }
         public Weapon CurrentWeapon { get; set; }
@@ -48,7 +49,7 @@ namespace Engine
             Gold = gold;
             ExperiencePoints = experiencePoints;
 
-            Inventory = new List<InventoryItem>();
+            Inventory = new BindingList<InventoryItem>();
             Quests = new List<PlayerQuest>();
         }
 
@@ -141,7 +142,7 @@ namespace Engine
             }
 
             // See if the player has the required item in their inventory
-            return Inventory.Exists(ii => ii.Details.ID ==
+            return Inventory.Any(ii => ii.Details.ID ==
                 location.ItemRequiredToEnter.ID);
         }
 
@@ -169,8 +170,8 @@ namespace Engine
             foreach(QuestCompletionItem qci in quest.QuestCompletionItems)
             {
                 // Check each item in the player's inventory to see if they have it, and enough of it
-                if(!Inventory.Exists(ii => ii.Details.ID ==
-                    qci.Details.ID && ii.Quanitity >= qci.Quantity))
+                if(!Inventory.Any(ii => ii.Details.ID ==
+                    qci.Details.ID && ii.Quantity >= qci.Quantity))
                 {
                     return false;
                 }
@@ -191,7 +192,7 @@ namespace Engine
                 if (item != null)
                 {
                     // Subtract the quantity from the player's inventory that was needed to complete the quest
-                    item.Quanitity -= qci.Quantity;
+                    item.Quantity -= qci.Quantity;
                 }
             }
         }
@@ -209,7 +210,7 @@ namespace Engine
             else
             {
                 // They have the item in their inventory, so increase the quantity by one
-                item.Quanitity++;
+                item.Quantity++;
             }
         }
 
@@ -286,7 +287,7 @@ namespace Engine
                 inventoryItem.Attributes.Append(idAttribute);
 
                 XmlAttribute quantityAttribute = playerData.CreateAttribute("Quantity");
-                quantityAttribute.Value = item.Quanitity.ToString();
+                quantityAttribute.Value = item.Quantity.ToString();
                 inventoryItem.Attributes.Append(quantityAttribute);
 
                 inventoryItems.AppendChild(inventoryItem);

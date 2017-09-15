@@ -41,6 +41,24 @@ namespace Super_Adventure_Project
             lblLevel.DataBindings.Add(
                 "Text", _player, "Level");
 
+            dgvInventory.RowHeadersVisible = false;
+            dgvInventory.AutoGenerateColumns = false;
+
+            dgvInventory.DataSource = _player.Inventory;
+
+            dgvInventory.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "Name",
+                Width = 197,
+                DataPropertyName = "Description"
+            });
+
+            dgvInventory.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "Quantity",
+                DataPropertyName = "Quantity"
+            });
+
             MoveTo(_player.CurrentLocation);
         }
 
@@ -214,7 +232,7 @@ namespace Super_Adventure_Project
             }
 
             // Refresh player's inventory list
-            UpdateInventoryListInUI();
+            //UpdateInventoryListInUI();
 
             // Refresh player's quest list
             UpdateQuestListInUI();
@@ -227,6 +245,7 @@ namespace Super_Adventure_Project
         }
 
         // Update inventory list in UI
+        /*
         private void UpdateInventoryListInUI()
         {
             dgvInventory.RowHeadersVisible = false;
@@ -248,6 +267,7 @@ namespace Super_Adventure_Project
                 }
             }
         }
+        */
 
         // Update quests in UI
         private void UpdateQuestListInUI()
@@ -278,7 +298,7 @@ namespace Super_Adventure_Project
             {
                 if(inventoryItem.Details is Weapon)
                 {
-                    if(inventoryItem.Quanitity > 0)
+                    if(inventoryItem.Quantity > 0)
                     {
                         weapons.Add((Weapon)inventoryItem.Details);
                     }
@@ -321,7 +341,7 @@ namespace Super_Adventure_Project
             {
                 if(inventoryItem.Details is HealingPotion)
                 {
-                    if(inventoryItem.Quanitity > 0)
+                    if(inventoryItem.Quantity > 0)
                     {
                         healingPotions.Add(
                             (HealingPotion)inventoryItem.Details);
@@ -409,16 +429,16 @@ namespace Super_Adventure_Project
                 {
                     _player.AddItemToInventory(inventoryItem.Details);
 
-                    if(inventoryItem.Quanitity == 1)
+                    if(inventoryItem.Quantity == 1)
                     {
                         rtbMessages.Text += "You loot " +
-                            inventoryItem.Quanitity.ToString() + " " +
+                            inventoryItem.Quantity.ToString() + " " +
                                 inventoryItem.Details.Name + Environment.NewLine;
                     }
                     else
                     {
                         rtbMessages.Text += "You loot " +
-                            inventoryItem.Quanitity.ToString() + " " +
+                            inventoryItem.Quantity.ToString() + " " +
                                 inventoryItem.Details.NamePlural + Environment.NewLine;
                     }
                 }
@@ -426,7 +446,7 @@ namespace Super_Adventure_Project
                 // Refresh player information and inventory controls
                 // UpdatePlayerStats();
 
-                UpdateInventoryListInUI();
+                //UpdateInventoryListInUI();
                 UpdateWeaponListInUI();
                 UpdatePotionListInUI();
 
@@ -485,7 +505,7 @@ namespace Super_Adventure_Project
             {
                 if(ii.Details.ID == potion.ID)
                 {
-                    ii.Quanitity--;
+                    ii.Quantity--;
                     break;
                 }
             }
@@ -518,7 +538,7 @@ namespace Super_Adventure_Project
 
             // Refresh player data in UI
             //lblHitPoints.Text = _player.CurrentHitPoints.ToString();
-            UpdateInventoryListInUI();
+            //UpdateInventoryListInUI();
             UpdatePotionListInUI();
         }
 

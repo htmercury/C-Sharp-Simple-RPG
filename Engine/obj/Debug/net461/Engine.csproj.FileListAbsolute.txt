@@ -1,0 +1,16 @@
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\Engine.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\Engine.pdb
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\System.AppContext.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\System.ComponentModel.Annotations.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\System.ComponentModel.Primitives.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\System.Xml.XmlDocument.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\System.Xml.XPath.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\bin\Debug\net461\System.Xml.XPath.XmlDocument.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\net461\Engine.csprojResolveAssemblyReference.cache
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\net461\Engine.csproj.CoreCompileInputs.cache
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\net461\Engine.AssemblyInfo.cs
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\net461\Engine.dll
+C:\Users\kawon\Documents\C-Simple-RPG\Engine\obj\Debug\net461\Engine.pdb

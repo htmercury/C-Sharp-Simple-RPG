@@ -20,8 +20,8 @@ namespace Engine
                 OnPropertyChanged("Details");
             }
         }
-        public int Quanitity {
-            get{ return _quantity; }
+        public int Quantity {
+            get { return _quantity; }
             set
             {
                 _quantity = value;
@@ -30,20 +30,28 @@ namespace Engine
             }
         }
 
+        public string Description
+        {
+            get
+            {
+                return Quantity > 1 ? Details.NamePlural :
+                    Details.Name;
+            }
+        }
+
         public InventoryItem(Item details, int quantity)
         {
             Details = details;
-            Quanitity = quantity;
+            Quantity = quantity;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string name)
         {
-            if(PropertyChanged != null)
+            if (PropertyChanged != null)
             {
-                PropertyChanged(
-                    this, new PropertyChangedEventArgs(name));
+                PropertyChanged(this, new PropertyChangedEventArgs(name));
             }
         }
 

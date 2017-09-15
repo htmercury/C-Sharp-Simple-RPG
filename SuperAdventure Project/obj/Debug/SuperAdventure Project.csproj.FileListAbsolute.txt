@@ -25,4 +25,24 @@ C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xm
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xml.XPath.dll
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xml.XPath.XmlDocument.dll
-C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.csproj.SuperAdventure Project.exe.config
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.AppContext.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Console.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.IO.Compression.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.IO.FileSystem.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Net.Http.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Net.Sockets.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Debug\System.Diagnostics.DiagnosticSource.xml
