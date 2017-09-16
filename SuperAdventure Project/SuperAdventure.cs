@@ -117,6 +117,7 @@ namespace Super_Adventure_Project
                 {
                     cboWeapons.Visible = false;
                     btnUseWeapon.Visible = false;
+                    btnTrade.Visible = (_player.CurrentLocation.VendorWorkingHere != null);
                 }
             }
 
@@ -149,6 +150,7 @@ namespace Super_Adventure_Project
                     cboPotions.Visible = false;
                     btnUseWeapon.Visible = false;
                     btnUsePotion.Visible = false;
+                    btnTrade.Visible = (_player.CurrentLocation.VendorWorkingHere != null);
                 }
                 else
                 {
@@ -204,6 +206,13 @@ namespace Super_Adventure_Project
         private void cboWeapons_SelectedIndexChanged(object sender, EventArgs e)
         {
             _player.CurrentWeapon = (Weapon)cboWeapons.SelectedItem;
+        }
+
+        private void btnTrade_Click(object sender, EventArgs e)
+        {
+            TradingScreen tradingScreen = new TradingScreen(_player);
+            tradingScreen.StartPosition = FormStartPosition.CenterParent;
+            tradingScreen.ShowDialog(this);
         }
     }
 }
