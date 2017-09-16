@@ -57,6 +57,11 @@ namespace Engine
 
         public BindingList<InventoryItem> Inventory { get; set; }
 
+        public BindingList<InventoryItem> SellableItems
+        {
+            get { return new BindingList<InventoryItem>(Inventory.Where(x => x.Price != World.UNSELLABLE_ITEM_PRICE).ToList()); }
+        }
+
         public List<Weapon> Weapons
         {
             get { return Inventory.Where(x => x.Details is Weapon).Select(x => x.Details as Weapon).ToList(); }

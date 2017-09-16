@@ -67,7 +67,7 @@ namespace Super_Adventure_Project
             });
 
             // Bind the player's inventory to the datagridview
-            dgvMyItems.DataSource = _currentPlayer.Inventory;
+            dgvMyItems.DataSource = _currentPlayer.SellableItems;
 
             // When the user clicks on a row, call this function
             dgvMyItems.CellClick += dgvMyItems_CellClick;
@@ -140,6 +140,8 @@ namespace Super_Adventure_Project
 
                     // Give the player gold for the item being sold.
                     _currentPlayer.Gold += itemBeingSold.Price;
+
+                    dgvMyItems.DataSource = _currentPlayer.SellableItems;
                 }
             }
         }
@@ -163,6 +165,8 @@ namespace Super_Adventure_Project
 
                     // Remove the gold to pay for the item
                     _currentPlayer.Gold -= itemBeingBought.Price;
+
+                    dgvMyItems.DataSource = _currentPlayer.SellableItems;
                 }
                 else
                 {

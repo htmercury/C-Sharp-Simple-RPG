@@ -35,3 +35,4 @@ C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Release\System.
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Release\System.Security.Cryptography.X509Certificates.dll
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Release\System.Xml.ReaderWriter.dll
 C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\kawon\Documents\C-Simple-RPG\SuperAdventure Project\obj\Release\Super_Adventure_Project.TradingScreen.resources
