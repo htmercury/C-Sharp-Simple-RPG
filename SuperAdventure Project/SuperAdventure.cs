@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Engine;
+using System;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO;
-
-using Engine;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace Super_Adventure_Project
 {
@@ -117,7 +111,6 @@ namespace Super_Adventure_Project
                 {
                     cboWeapons.Visible = false;
                     btnUseWeapon.Visible = false;
-                    btnTrade.Visible = (_player.CurrentLocation.VendorWorkingHere != null);
                 }
             }
 
@@ -140,6 +133,8 @@ namespace Super_Adventure_Project
                 btnSouth.Visible = (_player.CurrentLocation.LocationToSouth != null);
                 btnWest.Visible = (_player.CurrentLocation.LocationToWest != null);
 
+                btnTrade.Visible = (_player.CurrentLocation.VendorWorkingHere != null);
+
                 // Display current location name and description
                 rtbLocation.Text = _player.CurrentLocation.Name + Environment.NewLine;
                 rtbLocation.Text += _player.CurrentLocation.Description + Environment.NewLine;
@@ -150,7 +145,6 @@ namespace Super_Adventure_Project
                     cboPotions.Visible = false;
                     btnUseWeapon.Visible = false;
                     btnUsePotion.Visible = false;
-                    btnTrade.Visible = (_player.CurrentLocation.VendorWorkingHere != null);
                 }
                 else
                 {

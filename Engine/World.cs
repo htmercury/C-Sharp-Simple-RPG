@@ -193,50 +193,22 @@ namespace Engine
 
         public static Item ItemByID(int id)
         {
-            foreach(Item item in Items)
-            {
-                if(item.ID == id)
-                {
-                    return item;
-                }
-            }
-            return null;
+            return Items.SingleOrDefault(x => x.ID == id);
         }
 
         public static Monster MonsterByID(int id)
         {
-            foreach(Monster monster in Monsters)
-            {
-                if(monster.ID == id)
-                {
-                    return monster;
-                }
-            }
-            return null;
+            return Monsters.SingleOrDefault(x => x.ID == id);
         }
 
         public static Quest QuestByID(int id)
         {
-            foreach(Quest quest in Quests)
-            {
-                if(quest.ID == id)
-                {
-                    return quest;
-                }
-            }
-            return null;
+            return Quests.SingleOrDefault(x => x.ID == id);
         }
 
         public static Location LocationByID(int id)
         {
-            foreach(Location location in Locations)
-            {
-                if(location.ID == id)
-                {
-                    return location;
-                }
-            }
-            return null;
+            return Locations.SingleOrDefault(x => x.ID == id);
         }
     }
 }
