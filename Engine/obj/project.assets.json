@@ -1042,11 +1042,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\kawon\\Documents\\C-Simple-RPG\\Engine\\Engine.csproj",
+      "projectUniqueName": "C:\\Users\\kawon\\Documents\\C-Sharp-Simple-RPG\\Engine\\Engine.csproj",
       "projectName": "Engine",
-      "projectPath": "C:\\Users\\kawon\\Documents\\C-Simple-RPG\\Engine\\Engine.csproj",
+      "projectPath": "C:\\Users\\kawon\\Documents\\C-Sharp-Simple-RPG\\Engine\\Engine.csproj",
       "packagesPath": "C:\\Users\\kawon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kawon\\Documents\\C-Simple-RPG\\Engine\\obj\\",
+      "outputPath": "C:\\Users\\kawon\\Documents\\C-Sharp-Simple-RPG\\Engine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kawon\\AppData\\Roaming\\NuGet\\NuGet.Config",
