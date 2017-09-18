@@ -85,3 +85,4 @@ C:\Users\kawon\Documents\C-Sharp-Simple-RPG\SuperAdventure Project\obj\Debug\Sup
 C:\Users\kawon\Documents\C-Sharp-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.csproj.CoreCompileInputs.cache
 C:\Users\kawon\Documents\C-Sharp-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.exe
 C:\Users\kawon\Documents\C-Sharp-Simple-RPG\SuperAdventure Project\obj\Debug\SuperAdventure Project.pdb
+C:\Users\kawon\Documents\C-Sharp-Simple-RPG\SuperAdventure Project\obj\Debug\Super_Adventure_Project.WorldMap.resources

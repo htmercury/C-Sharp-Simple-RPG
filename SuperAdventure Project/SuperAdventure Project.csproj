@@ -139,6 +139,12 @@
     <Compile Include="TradingScreen.Designer.cs">
       <DependentUpon>TradingScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="WorldMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorldMap.Designer.cs">
+      <DependentUpon>WorldMap.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -154,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TradingScreen.resx">
       <DependentUpon>TradingScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorldMap.resx">
+      <DependentUpon>WorldMap.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -174,6 +183,19 @@
       <Project>{0181676f-5504-4a60-a28e-2597632bb38c}</Project>
       <Name>Engine</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Bridge.png" />
+    <EmbeddedResource Include="Images\FarmFields.png" />
+    <EmbeddedResource Include="Images\Farmhouse.png" />
+    <EmbeddedResource Include="Images\HerbalistsGarden.png" />
+    <EmbeddedResource Include="Images\HerbalistsHut.png" />
+    <EmbeddedResource Include="Images\Home.png" />
+    <EmbeddedResource Include="Images\SpiderForest.png" />
+    <EmbeddedResource Include="Images\TownGate.png" />
+    <EmbeddedResource Include="Images\TownSquare.png" />
+    <EmbeddedResource Include="Images\Trader.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
